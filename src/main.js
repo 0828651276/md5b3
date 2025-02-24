@@ -8,8 +8,10 @@ function isPrime(number) {
             if (number % i == 0) {
                 isPrime = false;
                 break;
+            
             }
-        }
+        
+}
     }
     return isPrime;
 }
