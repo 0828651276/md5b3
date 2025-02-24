@@ -7,6 +7,7 @@ function isPrime(number: number): boolean {
             if (number % i == 0) {
                 isPrime = false;
                 break;
+            
             }
         }
     }
